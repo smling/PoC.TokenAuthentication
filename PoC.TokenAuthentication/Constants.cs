@@ -8,5 +8,6 @@ namespace PoC.TokenAuthentication
     public static class Constants
     {
         public const string USER_ENCODE_KEY = "Password";
+        public const string TOKEN_ENCODE_KEY = "Password2";
     }
 }

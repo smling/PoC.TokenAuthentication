@@ -16,7 +16,7 @@ namespace PoC.TokenAuthentication.Context
 
         public DbSet<User> Users { get; set; }
         public DbSet<Company> Companies { get; set; }
-        //public DbSet<TokensManager> TokensManager { get; set; }
+        public DbSet<Token> Tokens { get; set; }
         public DbSet<ClientKey> ClientKeys { get; set; }
         //public DbSet<MusicStore> MusicStore { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
